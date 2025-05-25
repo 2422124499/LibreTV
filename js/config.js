@@ -7,13 +7,13 @@ const MAX_HISTORY_ITEMS = 5;
 // 密码保护配置
 const PASSWORD_CONFIG = {
     localStorageKey: 'passwordVerified',  // 存储验证状态的键名
-    verificationTTL: 90 * 24 * 60 * 60 * 1000,  // 验证有效期（90天，约3个月）
+    verificationTTL: 1 * 24 * 60 * 60 * 1000,  // 验证有效期（1天）
 };
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    name: '阿洋影视搜索',
+    url: 'https://v.vvgt.cn',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
